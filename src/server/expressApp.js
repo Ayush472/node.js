@@ -10,8 +10,8 @@ import path from "path";
 const app = express();
 app.use("/uploads", express.static(path.join("uploads")));
 
-const url = "mongodb+srv://patelayush4702:OrExjLWSA9qU539J@cluster0.cvpffps.mongodb.net/";
-// const url = 'mongodb+srv://ayush:Hp7Dm6ATKDOGRYnO@cluster0.h2pkdsq.mongodb.net/oemup';
+// const url = "mongodb+srv://patelayush4702:OrExjLWSA9qU539J@cluster0.cvpffps.mongodb.net/";
+const url = 'mongodb+srv://ayush:Hp7Dm6ATKDOGRYnO@cluster0.h2pkdsq.mongodb.net/oemup';
 // const url = config.DB;
 // const url = config.productionDB;
 
